@@ -1,0 +1,4 @@
+hello-service:
+  server: 127.0.0.1
+  port: 1076
+  rootUrl: http://${hello-service.server}:${hello-service.port}
